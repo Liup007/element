@@ -326,6 +326,7 @@
           >
             {$slots.title}
             <i class={[ 'el-submenu__icon-arrow', submenuTitleIcon ]}></i>
+            <i class="iconfont icon-xiangyou"></i>
           </div>
           {this.isMenuPopup ? popupMenu : inlineMenu}
         </li>
